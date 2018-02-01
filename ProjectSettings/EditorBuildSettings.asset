@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: b4a7394c5ff1d9f45b871aa5fff5ed57
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: 90031b007f7ab7d4393e245fd0e9bafa
+  - enabled: 1
+    path: Assets/Scenes/MazeChoose.unity
+    guid: 6e1db1cfbb031e44c8eff69074946d04
+  - enabled: 1
+    path: Assets/Scenes/maze1-3D.unity
+    guid: 99675500220229249854047104d4b46e
+  - enabled: 1
+    path: Assets/Scenes/LongMaze.unity
+    guid: a2181b3ad8ac19f4999ebe19cb3c804d
+  - enabled: 1
+    path: Assets/Scenes/ShortMaze.unity
+    guid: 533514249309afd4d9cec289ddc46983
