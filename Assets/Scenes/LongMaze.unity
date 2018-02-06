@@ -315,6 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf828b32da21944da37da5ce9a7370b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 0}
 --- !u!114 &296891316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1928,7 +1929,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Quit to Menu
 --- !u!222 &1951345612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2357,6 +2358,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bf828b32da21944da37da5ce9a7370b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  camera: {fileID: 1332154877}
 --- !u!114 &2080311491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2477,7 +2479,6 @@ MonoBehaviour:
   timeText: {fileID: 329549887}
   currentTimeText: {fileID: 392494882}
   kinect: {fileID: 1844415319}
-  camera: {fileID: 1332154877}
 --- !u!23 &2097943549
 MeshRenderer:
   m_ObjectHideFlags: 0

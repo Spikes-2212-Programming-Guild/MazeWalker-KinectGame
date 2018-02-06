@@ -9,7 +9,6 @@ public class EndMaze : MonoBehaviour {
     public Text timeText;
     public Text currentTimeText;
     public KneeCatcherScript kinect;
-    public GameObject camera;
 
     private float timeSinceGameStarted = 0;
     // Use this for initialization
@@ -19,7 +18,6 @@ public class EndMaze : MonoBehaviour {
         {
             endGameImage.SetActive(true);
             timeText.text = "Your time \nwas: "+(int)(timeSinceGameStarted);
-            Destroy(camera);
             Destroy(currentTimeText.gameObject);
         }
     }
